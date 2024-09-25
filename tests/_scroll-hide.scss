@@ -1,0 +1,5 @@
+@use "../../styles-nav/scroll-hide" as scroll-hide;
+
+.inside-nav {
+    @include scroll-hide.enable(-110px);
+}
